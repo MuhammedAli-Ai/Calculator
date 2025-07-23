@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main">
+    <div class="fo" id="display">0</div>
+    <div class="buttons">
+      <button class="button" onclick="clearDisplay()">C</button>
+      <button class="button" onclick="btn('%')">%</button>
+      <button class="button" onclick="btn('*')">×</button>
+      <button class="button" onclick="btn('/')">÷</button>
+
+      <button class="button" onclick="btn(7)">7</button>
+      <button class="button" onclick="btn(8)">8</button>
+      <button class="button" onclick="btn(9)">9</button>
+      <button class="button" onclick="btn('-')">-</button>
+
+      <button class="button" onclick="btn(4)">4</button>
+      <button class="button" onclick="btn(5)">5</button>
+      <button class="button" onclick="btn(6)">6</button>
+      <button class="button" onclick="btn('+')">+</button>
+
+      <button class="button" onclick="btn(1)">1</button>
+      <button class="button" onclick="btn(2)">2</button>
+      <button class="button" onclick="btn(3)">3</button>
+      <button class="button" onclick="calculate()">=</button>
+
+      <button class="button zero" onclick="btn(0)">0</button>
+      <button class="button" onclick="btn('.')">.</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
